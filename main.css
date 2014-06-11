@@ -1,0 +1,145 @@
+a, a:link, a:hover, a:visited
+{
+	background-color:white;
+	color:black;
+	text-decoration:none;
+}
+
+a:hover
+{
+	font-weight:bold;
+	opacity:0.7;
+}
+
+body, html
+{
+	background-color:#909090;
+	font-family:sans;
+	margin:0;
+	padding:0;
+	height:100%;
+	width:100%;
+}
+
+div.box, div.box a
+{
+	border:1px solid #808080;
+	height:5em;
+	width:5em;
+}
+
+div.box
+{
+	background-color:white;
+	display:inline;
+	float:left;
+	margin:1em;
+}
+
+div.box a
+{
+	display:block;
+	line-height:5em;
+	margin:5px;
+	text-align:center;
+}
+
+div.break
+{
+	clear:both;
+}
+
+h1, h3
+{
+	font-family:serif;
+	margin:0;
+	width:890px;
+}
+
+table
+{
+	margin-bottom:2em;
+}
+
+td
+{	
+	vertical-align:top;
+}
+
+td.left
+{
+	min-width:16em;
+	white-space:nowrap;
+}
+
+#container
+{
+	background-color:white;
+	max-width:900px;
+	min-height:30em;
+	left:50%;
+	margin-left:-450px;
+	padding:2em;
+	padding-bottom:10em;
+	position:absolute;
+	top:2em;
+}
+
+#container p
+{
+	text-align:justify;
+	width:80ex;
+}
+
+#container a
+{
+	color:#808080;
+	font-style:italic;
+}
+
+#main_menu
+{
+	left:50%;
+	margin-left:-7em;
+	margin-top:-7em;
+	position:absolute;
+	top:50%
+}
+
+#about
+{
+	background-color:#D0D0D0;
+}
+
+#blog
+{
+	background-color:#FFA0A0;
+}
+
+#contact
+{
+	color:#D0D0D0;
+	background-color:#606060;
+}
+
+#gallery
+{
+	background-color:#FFEFA0;
+}
+
+#links
+{
+	background-color:#A0EFA0;
+}
+
+#projects
+{
+	background-color:#A0A0EF;
+}
+
+#backlink
+{
+	display:block;
+	margin-bottom:2em;
+	margin-top:0.5em;
+}
