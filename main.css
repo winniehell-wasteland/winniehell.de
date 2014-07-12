@@ -66,10 +66,15 @@ td
 	vertical-align:top;
 }
 
-td.left
+td:first-child
 {
 	min-width:16em;
 	white-space:nowrap;
+}
+
+.footnotes
+{
+    font-size:75%;
 }
 
 #container
