@@ -1,5 +1,5 @@
 ---
-title: About me
+title: about me
 layout: page
 ---
 I'm a software developer from Germany &mdash; currently stuck in automotive
