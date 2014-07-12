@@ -56,25 +56,25 @@ h1, h3
 	width:890px;
 }
 
-table
-{
-	margin-bottom:2em;
-}
-
 td
 {	
 	vertical-align:top;
 }
 
-td:first-child
-{
-	min-width:16em;
-	white-space:nowrap;
-}
-
 .footnotes
 {
     font-size:75%;
+}
+
+.projects table
+{
+	margin-bottom:2em;
+}
+
+.projects td:first-child
+{
+	min-width:16em;
+	white-space:nowrap;
 }
 
 #container
