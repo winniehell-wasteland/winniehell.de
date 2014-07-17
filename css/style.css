@@ -1,0 +1,22 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: darkgrey;
+}
+
+body > .container {
+    background-color: white;
+    box-shadow: 0 0 1em dimgrey;
+    min-height: 100%;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+.navbar-fixed-bottom {
+    text-align: right;
+}
+.navbar-fixed-bottom > .container {
+    padding-top: 10px;
+}

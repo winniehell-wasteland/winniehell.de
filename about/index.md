@@ -1,6 +1,8 @@
 ---
-title: about me
+redirect_from: "/"
+index: 1
 layout: page
+title: about me
 ---
 I'm a software developer from Germany &mdash; currently stuck in automotive
 industry. My interest in computer science is grounded in starting to program at
