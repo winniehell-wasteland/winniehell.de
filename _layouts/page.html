@@ -15,11 +15,15 @@
 <div class="navbar navbar-default navbar-fixed-top" role="navigation">
 	<div class="container bg-info">
 		<ul class="nav navbar-nav">
-			{% assign page_list = site.pages | sort: 'index' %}
-			{% for p in page_list offset: 1 %}
+			{% assign num_pages = site.pages | size %}
+			{% for i in (1..num_pages) %}
+			{% for p in site.pages %}
+			{% if p.index == i %}
 			<li {% if p.url == page.url %}class="active"{% endif %}>
 			<a href="{{ p.url }}">{{ p.title }}</a>
 			</li>
+			{% endif %}
+			{% endfor %}
 			{% endfor %}
 		</ul>
 	</div>
