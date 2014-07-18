@@ -4,7 +4,7 @@ index: 1
 layout: page
 title: about me
 ---
-I'm a software developer from Germany &mdash; currently stuck in automotive
+I'm a software developer from Germany &mdash; currently employed in automotive
 industry. My interest in computer science is grounded in starting to program at
 the age of 11 &mdash; though I have learned at university that computer science
 is much more than just programming. You can see some of my projects
