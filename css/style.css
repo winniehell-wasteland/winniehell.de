@@ -14,6 +14,14 @@ body > .container {
     padding-top: 60px;
 }
 
+h3 {
+    clear: both;
+}
+
+.fancybox {
+    float: left;
+}
+
 .navbar {
     background: none;
     border: none;
