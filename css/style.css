@@ -20,6 +20,8 @@ h3 {
 
 .fancybox {
     float: left;
+    min-height: 170px;
+    min-width: 170px;
 }
 
 .navbar {
@@ -36,6 +38,11 @@ h3 {
     text-align: right;
     margin-bottom: -10px;
 }
+
 .navbar-fixed-bottom > .container {
     padding-top: 10px;
+}
+
+.thumbnail img {
+    margin: auto;
 }
