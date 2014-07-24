@@ -1,4 +1,31 @@
-<!DOCTYPE html>
+<!DOCTYPE html>{% capture prevent_blank_lines %}
+
+{% assign all_menu_items = "" %}
+{% assign num_pages = site.pages | size %}
+
+{% for i in (1..num_pages) %}
+{%   for p in site.pages %}
+{%     if p.index == i %}
+
+{%       if p.url == page.url %}
+{%         assign nav_item_classes = "active" %}
+{%       else %}
+{%         assign nav_item_classes = "" %}
+{%       endif %}
+
+{% capture menu_item %}
+<li class="{{ nav_item_classes}}">
+	<a href="{{ p.url }}">{{ p.title }}</a>
+</li>
+{% endcapture %}
+
+{%       assign all_menu_items = all_menu_items | append: menu_item %}
+
+{%     endif %}
+{%   endfor %}
+{% endfor %}
+
+{% endcapture %}{% assign prevent_blank_lines = nil %}
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
@@ -17,12 +44,7 @@
 <div class="navbar navbar-default navbar-fixed-top" role="navigation">
 	<div class="container bg-info">
 		<ul class="nav navbar-nav">
-{% assign num_pages = site.pages | size %}
-{% for i in (1..num_pages) %}{% for p in site.pages %}{% if p.index == i %}
-			<li {% if p.url == page.url %}class="active"{% endif %}>
-			<a href="{{ p.url }}">{{ p.title }}</a>
-			</li>
-{% endif %}{% endfor %}{% endfor %}
+			{{ all_menu_items }}
 		</ul>
 	</div>
 </div>
@@ -47,11 +69,12 @@
 <script src="/js/jquery.fancybox.pack.js?v=2.1.5"></script>
 <script src="/js/bootstrap.min.js"></script>
 
-<script>
+<script type="text/javascript">
 	$('body > .container').children().hide().fadeIn();
 	$(document).ready(function () {
 		$(".fancybox").fancybox();
 	});
 </script>
+
 </body>
 </html>
