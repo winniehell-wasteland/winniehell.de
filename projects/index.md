@@ -3,8 +3,7 @@ layout: page
 index: 2
 title: projects
 ---
-You can find me on [bitbucket](https://bitbucket.org/winniehell/) and on
-[github](https://www.github.com/winniehell/) (where I also host this homepage)
+You can find me on [github](https://www.github.com/winniehell/) (where I also host this homepage)
 but most of my projects are in early progress and therefore only on my computer.
 
 Note also that most of my projects are not under active development as I don't
@@ -21,14 +20,13 @@ are willing to join&mdash;if you are, please do not hesitate to
 
 | University Projects |
 |---------------------|
-| [sudoku solver](https://bitbucket.org/winniehell/sudoku/) | solves 2x2, 3x3 and 4x4 sudokus |
-| [visibility polygon generation](https://bitbucket.org/winniehell/visibility/) | query algorithm for visibility polygons with almost linear running time |
+| [sudoku solver](https://github.com/winniehell/sudoku-solver/) | solves 2x2, 3x3 and 4x4 sudokus |
+| [visibility polygons](https://github.com/winniehell/visibility-polygon-query-algorithm/) | query algorithm for visibility polygons with almost linear running time |
 | [beavers](http://www.github.com/winniehell/beavers) | role-based squad shooter for Android |
 {: .table .table-hover }
 
 | Applications |
 |--------------|
-| [battle beavers](https://www.github.com/winniehell/battlebeavers/)[^i] | remake of beavers, role-based squad shooter for Android 4.0 |
 | [json2uml](https://bitbucket.org/winniehell/json2uml)[^i] | python converter that turns [JSON schemas](http://json-schema.org/) into UML-ish diagrams using [pygraphviz](http://networkx.lanl.gov/pygraphviz/)
 | moviepicker[^i][^o] | tool to decide on a movie based on the taste of a group |
 | Pen & paper compendium[^i][^o] | utilities for a DnDish pen and paper game |
