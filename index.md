@@ -1,5 +1,4 @@
 ---
-redirect_from: "/"
 index: 1
 layout: page
 title: about me
